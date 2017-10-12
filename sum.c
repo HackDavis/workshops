@@ -1,11 +1,8 @@
 #include <stdio.h>
 int main() {
     int a = 0;
-    int b = 5;
-    for(int i = 0; i < b; i++)
-    {
-        a++;
-    }
-    printf("%d \n", a);
+    int b = 0;
+    int c = a + b;
+    printf("%d \n", c);
     return 0;
 }
