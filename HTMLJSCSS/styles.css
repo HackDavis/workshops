@@ -1,0 +1,18 @@
+nav {
+    height: 50px;
+    background-color: blue;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+}
+body{
+    margin: 0;
+}
+#welcome {
+    font-size: 40px;
+}
+article > p {
+    margin-left: 30px;
+}
