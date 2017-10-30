@@ -11,7 +11,16 @@
             <a href="http://google.com">Google</a>
         </nav>
         <h1 id="welcome">Welcome to my blog.</h1>
-        <button onclick="addPost()" >Add Blog</button>
+        <section>
+            <form>
+                <label>Author: <input id="author"></label>
+                <br />
+                <label>Post: <input id="post" type="text"></label>
+                <br />
+                <input type="button" value="Post" onclick="addPost()">
+                <input type="reset">
+            </form>
+        </section>
         <section id="blogs">
             <article>
                 <h1>My day today.
